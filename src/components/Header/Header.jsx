@@ -52,7 +52,7 @@ const Header = () => {
               <a href='/'>Login</a>
             </li>
             <li>
-              <Button variant='primary'>Open An Account</Button>
+              <Button variant='primary'>Open an account</Button>
             </li>
           </ul>
         </nav>

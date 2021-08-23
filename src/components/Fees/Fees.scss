@@ -1,0 +1,91 @@
+.home-fees {
+  margin: 3rem 0;
+  padding: 3rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-wrapper {
+  background-color: #fff;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.text-wrapper {
+  .text-head {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.34;
+    letter-spacing: -0.0275rem;
+    margin-top: 2rem;
+  }
+  .text-desc {
+    font-size: 1rem;
+    line-height: 1.38;
+    letter-spacing: -0.00562rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #333d47;
+  }
+
+  a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3e7eee;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+}
+
+.fees-list {
+  margin: 2rem 0;
+}
+
+.fee-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 18.75rem;
+
+  &:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+
+  h5, p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.38;
+    letter-spacing: -0.09px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-fees {
+    padding: 4rem 3.125rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-wrapper {
+    width: 50%;
+  }
+  .text-wrapper {
+    padding: 2rem 2rem 2rem 4rem;
+    width: 50%;
+    .text-head {
+      margin-top: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .home-fees {
+    padding: 7.5rem 13.375rem;
+    margin: 6rem 0;
+  }
+}

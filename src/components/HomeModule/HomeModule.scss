@@ -1,13 +1,10 @@
 .home-mod {
-  // padding-top: 8em;
-  // padding-left: 9em;
   display: flex;
   align-items: center;
 }
 
 .main-text {
-  width: 40%;
-  // border: 1px solid black;
+  width: 35%;
 
   h5 {
     font-size: 0.875rem;
@@ -91,8 +88,7 @@
 }
 
 .svg-img {
-  width: 60%;
-  // border: 1px solid black;
+  width: 65%;
   img {
     height: 100%;
     width: 100%;
@@ -102,7 +98,7 @@
 @media only screen and (min-width: 768px) {
   .home-mod {
     padding-left: 4em;
-    padding-top: 10em;
+    padding-top: 8em;
   }
 }
 
@@ -117,10 +113,8 @@
   .home-mod {
     padding-left: 1em;
     padding-right: 1em;
-    // display: flex;
     padding-top: 7em;
     flex-direction: column;
-    // align-items: center;
     text-align: center;
   }
   .main-text {

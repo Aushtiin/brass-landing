@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeModule.scss";
-import computer from '../../images/download.png'
+import computer from '../../images/computer2.svg'
 import { Image } from "react-bootstrap";
 
 const HomeModule = () => {
